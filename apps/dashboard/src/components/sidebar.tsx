@@ -38,7 +38,7 @@ export function Sidebar() {
     >
       <div
         className={cn(
-          "absolute top-0 left-0 h-[70px] flex items-center justify-center bg-background border-b border-border transition-all duration-200 ease-&lsqb;cubic-bezier(0.4,0,0.2,1)&rsqb;",
+          "absolute top-0 left-0 h-[70px] flex items-center justify-center bg-secondary border-b border-border transition-all duration-200 ease-&lsqb;cubic-bezier(0.4,0,0.2,1)&rsqb;",
           isExpanded ? "w-full" : "w-[69px]",
         )}
       >
