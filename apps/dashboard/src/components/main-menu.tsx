@@ -290,7 +290,7 @@ export function MainMenu({ onSelect, isExpanded = false }: Props) {
   return (
     <div className="mt-4 w-full">
       <nav className="w-full">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-3">
           {items.map((item) => {
             const isActive =
               (pathname === "/" && item.path === "/") ||
